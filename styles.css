@@ -490,13 +490,13 @@ footer {
 	}
 
 	#projects .card .demo-btn{
-		font-size: 1rem;
-		padding: 0.5em;
+		font-size: 0.7rem;
+		padding: 1em;
 	}
 
 	#projects .card .code-btn {
-		font-size: 1rem;
-		padding: 0.5em;
+		font-size: 0.7rem;
+		padding: 1em;
 	}
 
 	.card-container{
