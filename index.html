@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/png" href="./images/devchallenges.png">
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Portfolio Challenge</title>
+  </head>
+  <body>
+    <main>
+			<section class="information">
+				<img
+					src="/images/korhan-vesikalık.png"
+					alt="profile picture of Korhan Aladağ"
+					width="300px"
+				/>
+				<div class="grid-container">
+					<div class="intro">
+						<h1>Korhan Aladağ</h1>
+						<p>Frontend Developer</p>
+					</div>
+					<div class="contact">
+						<div>
+							<span class="material-icons">email</span>korhanaladag.dev@gmail.com
+						</div>
+						<div>
+							<span class="material-icons">phone</span>(+90) 506 156 38 27
+						</div>
+					</div>
+					<div class="info">
+						<p>
+              FRONTEND developer based out of Muğla, Turkey. I love building apps that solve real-
+              world problems, and that are delightful to use. 
+						</p>
+            <br>
+            <br>
+            
+            <p>I have a strong passion for Frontend
+              Development, and I'm committed to improving my skills in this field.</p>
+					</div>
+				</div>
+			</section>
+
+      <div class="grid-container">
+				<section class="skills">
+					<h2>Front end</h2>
+					<div class="row">
+						<h3>React</h3>
+						<div class="experience-bar first"></div>
+					</div>
+					<div class="row">
+						<h3>Typescript</h3>
+						<div class="experience-bar second"></div>
+					</div>
+					<div class="row">
+						<h3>Javacript</h3>
+						<div class="experience-bar third"></div>
+					</div>
+					<div class="row">
+						<h3>Redux</h3>
+						<div class="experience-bar fourth"></div>
+					</div>
+					<div class="row">
+						<h3>RESTAPI</h3>
+						<div class="experience-bar fifth"></div>
+					</div>
+					<div class="row">
+						<h3>PostgreSQL</h3>
+						<div class="experience-bar sixth"></div>
+					</div>
+					<div class="row">
+						<h3>HTML</h3>
+						<div class="experience-bar seventh"></div>
+					</div>
+					<div class="row">
+						<h3>CSS</h3>
+						<div class="experience-bar eighth"></div>
+					</div>
+				</section>
+				<section class="blogs">
+					<h2>Blog</h2>
+					<div class="blog">
+            <div class="blog-flex">
+              <div>
+                <h3>How to organize your CSS</h3>
+              </div>
+              <div>
+                <img src="./images/organize-css-img.jpeg" alt="blog image"/>
+              </div> 
+            </div>   
+						<p>
+							In this article I tell the story about organizing your css in a better way.
+						</p>
+						<p>
+							Donec aliquam est dui, vel vestibulum diam
+							sollicitudin id. Quisque feugiat malesuada molestie.
+						</p>
+						<a href="dev.to">dev.to</a>
+					</div>
+				</section>
+
+				<section class="hobbies">
+					<h2>Hobbies</h2>
+					<div class="hobby-1">
+						<img
+							class="img"
+							src="./images/coding-hobby.jpeg"
+							alt="coding-hobby"
+						/>
+						<h3>Coding</h3>
+						<p>
+							"Coding enthusiast."
+						</p>
+					</div>
+					<div class="hobby-2">
+						<img
+							class="img"
+							src="./images/dance-hobby.jpeg"
+							alt="dance-hobby"
+						/>
+						<h3>Dancing</h3>
+						<p>
+							"Professional latin dancer."
+						</p>
+					</div>
+				</section>
+				<section class="experiences">
+					<h2>Experiences</h2>
+					<div class="grid-container">
+						<img
+              src="./images/freelance-experience.jpeg"
+							alt="freelance-experience"
+						/>
+						<h4>Jan 2023 - Jun 2023</h4>
+						<h3>Frontend developer</h3>
+						<p>
+              Freelance Frontend development
+						</p>
+					</div>
+					<div class="grid-container">
+						<img
+              src="./images/abap-experience.png"
+							alt="abap-experience"
+						/>
+						<h4>May 2022 - Sep 2022</h4>
+						<h3>ABAP Consultant</h3>
+						<p>
+              SAP Advanced Business Application Programming development and
+              consultant
+						</p>
+					</div>
+          <div class="grid-container">
+						<img
+              src="./images/scrum-experience.jpeg"
+							alt="scrum-experience"
+						/>
+						<h4>Aug 2019 - Sep 2019</h4>
+						<h3>Intern Engineer</h3>
+						<p>
+              Improving employee’s performance on complex projects with Scrum
+						</p>
+					</div>
+				</section>
+			</div>
+
+      <section id="project-tags">
+				<h2>Projects (3)</h2>
+				<button onclick="filterObjects('all')">Show All</button>
+				<button onclick="filterObjects('React')">React</button>
+				<button onclick="filterObjects('Vanilla-Js')">Vanilla-Js</button>
+			</section>
+
+      <section id="projects">
+				<div class="card-container">
+					<div class="card React">
+						<img src="./images/recipe.png" alt="" />
+						<div class="tags">
+							<div class="tag">#React</div>
+						</div>
+						<h2>Recipe Blog</h2>
+						<p>
+							In this project, I work with HTML and CSS to create
+							a responsive page. This page is similiar with a
+							page. The design is from devchallenge.io
+						</p>
+						<a
+							target="_blank"
+							class="demo-btn"
+							href="https://recipe-page-challenge-orcin.vercel.app/"
+							>Demo</a
+						>
+						<a
+							target="_blank"
+							class="code-btn"
+							href="https://github.com/KorhanAladag/Recipe-Page-Challenge"
+							>Code</a
+						>
+					</div>
+					<div class="card React Vanilla-Js" >
+						<img src="./images/gallery.png" alt="" />
+						<div class="tags">
+							<div class="tag">#React</div>
+							<div class="tag">#Vanilla-Js</div>
+						</div>
+						<h2>My Gallery</h2>
+						<p>
+							In this project, I work with HTML and CSS to create
+							a responsive page. This page is similiar with a
+							page. The design is from devchallenge.io
+						</p>
+						<a
+							target="_blank"
+							class="demo-btn"
+							target="_blank"
+							href="https://my-gallery-project-beta.vercel.app/"
+							>Demo</a
+						>
+						<a
+							target="_blank"
+							class="code-btn"
+							href="https://github.com/KorhanAladag/My-Gallery-project"
+							>Code</a
+						>
+					</div>
+					<div class="card Vanilla-Js">
+						<img
+							src="./images/checkout.png"
+							alt=""
+						/>
+						<div class="tags">
+							<div class="tag">#Vanilla-Js</div>
+						</div>
+						<h2>Checkout</h2>
+						<p>
+							In this project, I work with HTML and CSS to create
+							a responsive page. This page is similiar with a
+							page. The design is from devchallenge.io
+						</p>
+						<a
+							target="_blank"
+							class="demo-btn"
+							href="https://checkout-page-challenge-one.vercel.app/"
+							>Demo</a
+						>
+						<a
+							target="_blank"
+							class="code-btn"
+							href="https://github.com/KorhanAladag/Checkout-Page-Challenge"
+							>Code</a
+						>
+					</div>
+
+
+				</div>
+        <div id="navigation">
+          <button class="page">&lt;</button>
+          <button class="page">1</button>
+          <button class="page current">2</button>
+          <button class="page">...</button>
+          <button class="page">10</button>
+          <button class="page">&gt;</button>
+        </div>
+
+			</section>
+      <footer>
+        created by
+        <p><strong>Korhan Aladağ</strong></a> 
+        devChallenges.io
+      </footer>
+
+  </body>
+  <script src="index.js"></script>
+</html>
